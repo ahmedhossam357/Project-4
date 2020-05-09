@@ -1,0 +1,435 @@
+.html
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.mine
+{
+    background-color: transparent;
+}
+nav ul li
+{
+    padding: 0px 5px;
+    font-weight: 600;
+}
+nav ul li a{
+    color: #fff !important;
+}
+nav ul li a:hover{
+    color: #f25454 !important;
+}
+.f
+{
+    background-color: #1f2528;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    z-index: 5;
+    top: 220px;
+}
+.slide
+{
+    height: 100vh;
+}
+.carousel-caption
+{
+    padding-bottom: 250px;
+}
+.carousel-caption h1
+{
+    font-size: 70px;
+}
+.arr{
+    border: 1px solid #fff;
+    border-radius: 5%;
+}
+.h-2
+{
+    height: 4px;
+}
+.about .header h2
+{
+    font-size: 75px;
+    opacity: 0.2;
+}
+.about .header h3
+{
+    font-size: 40px;
+    position: absolute;
+}
+
+.bline
+{
+    height: 1px;
+    background-color: black;
+    width: 80px;
+    margin: auto;
+    transition: 1s all;
+}
+.about .header:hover .bline
+{
+    width: 200px;
+}
+.about .header p
+{
+    font-size: 19px;
+}
+.about .para p ,h5
+{
+    font-size: 15px;
+    color: gray;
+}
+.about .para h5
+{
+    color: #000;
+    margin: 15px 0px;
+}
+.branding
+{
+    width: 0%;
+    animation-name: bar1;
+    animation-duration: 4s;
+}
+@keyframes bar1
+{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.web
+{
+    width: 0%;
+    animation-name: bar2;
+    animation-duration: 4s;
+}
+@keyframes bar2
+{
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+
+.graphic
+{
+    width: 0%;
+    animation-name: bar3;
+    animation-duration: 4s;
+}
+@keyframes bar3
+{
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.develop
+{
+    width: 0%;
+    animation-name: bar4;
+    animation-duration: 4s;
+}
+@keyframes bar4
+{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.team .header h2
+{
+    font-size: 75px;
+    opacity: 0.2;
+}
+.team .header .sh
+{
+    justify-content: center;
+    align-items: center;
+}
+.team .header h3
+{
+    font-size: 40px;
+    position: absolute;
+}
+.team .header:hover .bline
+{
+    width: 200px;
+}
+.image{
+    position: relative;
+    color: #fff;
+}
+.layout
+{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(242, 84, 84, 0.82);
+    align-items: center;
+    justify-content: center;
+}
+.image i
+{
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.team .astc .layout
+{
+    transition: 1s all;
+    opacity: 0;
+}
+.team .astc:hover .layout
+{
+    opacity: 1;
+}
+.team .astc img
+{
+    transition: 1s all;
+}
+.team .astc:hover img
+{
+    
+    transform: scale(1.1,1.1);
+}
+.team .astc h5
+{
+    color: #000;
+    font-weight: 550;
+}
+.team .astc:hover h5
+{
+    color: rgb(242, 84, 84);
+}
+.rose
+{
+    background-color: rgb(242, 84, 84);
+    color: #fff;
+    font-size: 20px;
+}
+.rose:hover
+{
+    background-color: rgba(242, 84, 84,0.8);
+    color: #fff;
+}
+.team h3
+{
+    font-size: 34px;
+}
+.services
+{
+    background-color: #fafafa
+}
+.services .header h2
+{
+    font-size: 75px;
+    opacity: 0.2;
+}
+.services .header .sh
+{
+    justify-content: center;
+    align-items: center;
+}
+.services .header h3
+{
+    font-size: 40px;
+    position: absolute;
+}
+.services .header:hover .bline
+{
+    width: 200px;
+}
+.services i
+{
+    color: rgb(242, 84, 84);
+    font-size: 20px;
+    padding: 8px 0px 0px;
+    margin: 0px;
+}
+.services span
+{
+    font-size: 23px;
+}
+.services .content:hover span
+{
+    color: rgb(242, 84, 84);
+}
+
+.services .asci
+{
+    padding: 0px;
+    margin: 0px;
+}
+.services .container
+{
+    width: 90%;
+}
+
+.review .client .content
+{
+ 
+    border: 1px solid transparent;
+    border-radius: 50%;overflow: hidden;
+}
+.containerh
+{
+
+    width: 70%;
+    margin: auto;
+  
+}
+.containerh .image
+{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.review h3
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.review p
+{
+    font-size: 15px;
+    color: gray;
+}
+.review .header h2
+{
+    font-size: 75px;
+    opacity: 0.2;
+}
+.review .header h3
+{
+    font-size: 40px;
+    position: absolute;
+}
+.review .header:hover .bline
+{
+    width: 200px;
+}
+.review .after
+{
+    font-size: 28px;
+    margin: 15px 0px;
+}
+.touch
+{
+    margin: 200px 0px 50px 0px;
+    background-color: #fafafa;
+}
+.touch .header h2
+{
+    font-size: 75px;
+    opacity: 0.2;
+}
+.touch .header h3
+{
+    font-size: 40px;
+    position: absolute;
+}
+.touch .header:hover .bline
+{
+    width: 200px;
+}
+
+.btn1
+{
+    background-color:#f25454;
+    color: #fff;
+}
+.btn1:hover
+{
+    background-color: rgba(242, 84, 84,0.8);
+    color: #fff;
+}
+.touch .content h3
+{
+    font-size: 28px;
+}
+.touch .content i
+{
+    font-size: 28px;
+    color:#f25454;
+}
+.touch .content .icon span
+{
+    font-size: 22px;
+}
+.touch .content .icon:hover span
+{
+    color: #f25454;
+}
+.btn1 i
+{
+    color: #fff;
+}
+footer
+{
+    background-image: url(../images/dotted-map.png);
+    background-size: 100% 100%;
+    background-color: #222;
+}
+.btn2
+{
+    color: #fff;
+    border: 1px solid #fff;
+}
+.btn2:hover
+{
+    color: #f25454;
+    border: 1px solid #f25454;
+}
+footer .content
+{
+    line-height: 15px;
+}
+footer .content1 p
+{
+    font-weight: 600;
+}
+footer .content1 p:hover
+{
+    color: #f25454;
+}
+.footericons
+{
+    background-color: #1a1a1a;
+}
+.footericons a 
+{
+    margin: 0px 10px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.footericons a:hover
+{
+    color: #f25454;
+}
+.footericons .clean 
+{
+    font-size: 16px;
+    text-decoration: none;
+}
+.footericons .clean:hover 
+{
+    color: #f25454 !important;
+}
+.per
+{
+    top: 0px;
+    right: 0px;
+    opacity: 1;
+    animation-name: move;
+    animation-duration: 8s;
+}
+.perc
+{
+    bottom: 10px;
+    right: 0px;
+    opacity: 1;
+    animation-name: move;
+    animation-duration: 8s;
+    
+}
+@keyframes move
+{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
